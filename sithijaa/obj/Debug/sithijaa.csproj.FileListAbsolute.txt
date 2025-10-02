@@ -1,0 +1,15 @@
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\bin\Debug\sithijaa.exe.config
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\bin\Debug\sithijaa.exe
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\bin\Debug\sithijaa.pdb
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.csproj.AssemblyReference.cache
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.Properties.Resources.resources
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.csproj.GenerateResource.cache
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.csproj.CoreCompileInputs.cache
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.exe
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.pdb
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.exe.config
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.loading.resources
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.LoginForm.resources
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.Dashboard.resources
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.manageathletes.resources
+C:\Users\rbini\OneDrive\Desktop\sithijaa\sithijaa\obj\Debug\sithijaa.manageCompetitions.resources

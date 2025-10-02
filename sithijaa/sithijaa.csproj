@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{232B7D6E-E670-4D21-A437-A9A6347A98FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>sithijaa</RootNamespace>
+    <AssemblyName>sithijaa</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.cs">
+      <DependentUpon>loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manageathletes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manageathletes.Designer.cs">
+      <DependentUpon>manageathletes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manageCompetitions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manageCompetitions.Designer.cs">
+      <DependentUpon>manageCompetitions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manageathletes.resx">
+      <DependentUpon>manageathletes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manageCompetitions.resx">
+      <DependentUpon>manageCompetitions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karate_20250916-134655.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karate_20250916-134940.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fight_20250916-140939.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_20250916-143122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\management_20250916-144212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\management_20250916-144707.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\training_20250916-144247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy_20250916-144309.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analysis_20250916-144400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confrontation_20250916-145045.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_20250917-024649.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
