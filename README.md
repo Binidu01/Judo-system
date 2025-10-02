@@ -2,7 +2,7 @@
   
 # Judo-system
 
-Manage the athlethese of the Judo Kickboxing 
+Manage the athlethese of the Kick-Blast Judo
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c#&logoColor=white)
 
